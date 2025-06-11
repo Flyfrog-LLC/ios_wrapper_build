@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
     name: "LibXray",
     platforms: [
-        .iOS(.v15),
-        .tvOS(.v15)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -16,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LibXray",
-            url: "https://github.com/Flyfrog-LLC/ios_wrapper_build/releases/download/v3.6.0/LibXray.xcframework.zip",
-            checksum: "98070eea61f6be819635c8f51892e8d9b2440857a887d9335805e21a52d7a9f7"
+            url: "https://github.com/Flyfrog-LLC/ios_wrapper_build/releases/download/v3.7.0/LibXray.xcframework.zip",
+            checksum: "ed602e154c2f359c47bdd3dd3ef5aad8c19b2f1071b1970b40c5dfe04fc63726"
         )
     ]
 )
