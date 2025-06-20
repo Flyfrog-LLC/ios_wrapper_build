@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LibXray",
-            url: "https://github.com/Flyfrog-LLC/ios_wrapper_build/releases/download/v3.6.4/LibXray.xcframework.zip",
-            checksum: "5e4b4e33750370e51e733b9896ab9b26c0e8e879ab2d75fdbb66f9197aab6a68"
+            url: "https://github.com/Flyfrog-LLC/ios_wrapper_build/releases/download/v3.6.5/LibXray.xcframework.zip",
+            checksum: "d9bac134202bc0ad36e46192b3d42cf5184b25835c8fe689879fc796dde3d280"
         )
     ]
 )
